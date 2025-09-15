@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="styleshee');
+ :root {
+     --pbmit-global-color: #c4dd2a;
+     --pbmit-secondary-color: #304a43;
+     --pbmit-light-color: #f6f6f6;
+     --pbmit-white-color: #ffffff;
+     --pbmit-blackish-color: #304a43;
+     --pbmit-link-color-normal: #13211d;
+     --pbmit-link-color-hover: #c4dd2a;
+     --pbmit-global-color-rgb: 196, 221, 42;
+     --pbmit-secondary-color-rgb: 48, 74, 67;
+     --pbmit-responsive-breakpoint: 1200px;
+     --pbmit-body-typography-font-family: 'DM Sans', sans-serif;
+     --pbmit-body-typography-variant: regular;
+     --pbmit-body-typography-font-size: 17px;
+     --pbmit-body-typography-line-height: 1.8;
+     --pbmit-body-typography-color: #666666;
+     --pbmit-heading-typography-font-family: 'Jost', sans-serif;
+     --pbmit-heading-color: #27272f;
+     --pbmit-heading-font-variant:normal;
+     --pbmit-btn-typography-font-family: 'Jost', sans-serif;
+     --pbmit-btn-typography-variant: regular;
+     --pbmit-btn-typography-font-size: 16px;
+     --pbmit-btn-typography-line-height: 26px;
+}
+
+/*----------------------------------------*/
+/* 01 - Typography 
+/*----------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--pbmit-heading-typography-font-family);
+    font-weight: normal;
+    color: var(--pbmit-heading-color);
+}
+
+.pbmit-btn {
+    font-family: var(--pbmit-heading-typography-font-family);
+    font-weight: var(--pbmit-btn-typography-variant);
+    font-size: var(--pbmit-btn-typography-font-size);
+    line-height: var(--pbmit-btn-typography-line-height);
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-style: normal;
+    padding: 14px 35px;
+    border-radius: 15px;
+}

@@ -1,0 +1,37 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet');
+ :root {
+     --pbmit-global-color: #bc1e24;
+     --pbmit-secondary-color: #1e1e25;
+     --pbmit-light-color: #f6f6f6;
+     --pbmit-white-color: #ffffff;
+     --pbmit-blackish-color: #000000;
+     --pbmit-link-color-normal: #171717;
+     --pbmit-link-color-hover: #bc1e24;
+     --pbmit-global-color-rgb: rgb(188, 30, 36);
+     --pbmit-secondary-color-rgb:rgb(30, 30, 37);
+     --pbmit-responsive-breakpoint: 1200px;
+     --pbmit-body-typography-font-family:'DM Sans', sans-serif;
+     --pbmit-body-typography-variant: regular;
+     --pbmit-body-typography-font-size: 16px;
+     --pbmit-body-typography-line-height: 1.7;
+     --pbmit-body-typography-color: #666666;
+     --pbmit-heading-typography-font-family:'Oswald', sans-serif;
+     --pbmit-heading-color: #171717;
+     --pbmit-heading-font-variant:normal;
+     --pbmit-btn-typography-font-family:'Oswald', sans-serif;
+     --pbmit-btn-typography-variant: normal;
+     --pbmit-btn-typography-font-size: 14px;
+     --pbmit-btn-typography-line-height: 24px;
+}
+
+/*----------------------------------------*/
+/* 01 - Typography 
+/*----------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--pbmit-heading-typography-font-family);
+    font-weight: normal;
+    color: var(--pbmit-heading-color);
+}

@@ -1,0 +1,37 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+ :root {
+     --pbmit-global-color: #e9b63f;
+     --pbmit-secondary-color: #080e1c;
+     --pbmit-light-color: #f6f6f6;
+     --pbmit-white-color: #ffffff;
+     --pbmit-blackish-color: #02060f;
+     --pbmit-link-color-normal: #080e1c;
+     --pbmit-link-color-hover: #e9b63f;
+     --pbmit-global-color-rgb: rgb(233, 182, 63);
+     --pbmit-secondary-color-rgb:rgb(8, 14, 28);
+     --pbmit-responsive-breakpoint: 1200px;
+     --pbmit-body-typography-font-family:'DM Sans', sans-serif;
+     --pbmit-body-typography-variant: regular;
+     --pbmit-body-typography-font-size: 17px;
+     --pbmit-body-typography-line-height: 1.7;
+     --pbmit-body-typography-color: #666666;
+     --pbmit-heading-typography-font-family: 'Space Grotesk', sans-serif;
+     --pbmit-heading-color: #080e1c;
+     --pbmit-heading-font-variant:normal;
+     --pbmit-btn-typography-font-family: 'Space Grotesk', sans-serif;
+     --pbmit-btn-typography-variant: 500;
+     --pbmit-btn-typography-font-size: 14px;
+     --pbmit-btn-typography-line-height: 25px;
+}
+
+/*----------------------------------------*/
+/* 01 - Typography 
+/*----------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--pbmit-heading-typography-font-family);
+    font-weight: 700;
+    color: var(--pbmit-heading-color);
+}
